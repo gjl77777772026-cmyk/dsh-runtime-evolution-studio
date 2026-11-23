@@ -24,7 +24,7 @@ const initial: Environment[] = [{
     { id: 2, name: "Lean setup · v0.2", date: "Yesterday, 16:18", modules: ["planner", "web"], note: "Reduced context footprint" },
     { id: 1, name: "Starter · v0.1", date: "Yesterday, 14:05", modules: ["planner"], note: "First workspace draft" },
   ]
-};
+}];
 
 const iconMap: Record<string, typeof BrainCircuit> = {
   planner: BrainCircuit, web: Workflow, memory: Layers3, review: ShieldCheck
